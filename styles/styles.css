@@ -1,0 +1,245 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  min-height: 96vh;
+  height: fit-content;
+  border-radius: 16px;
+  justify-content: space-between;
+  background-color: #252525;
+}
+p {
+  color: white;
+  margin: 0;
+}
+h1{
+  margin: 0;
+}
+
+.footer-section-container{
+  height: 90px;
+  border-end-end-radius: 16px;
+  border-end-start-radius: 16px;
+  border-top: 3px solid #ADFF00;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.player-right{
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+}
+.image-container img{
+  height: auto;
+  width: 75px;
+}
+.album-details{
+  height: fit-content;
+}
+.album-details h1{
+  font-size: 18px;
+  color: white;
+}
+.album-details p {
+  font-size: 14px;
+  color: #6B7280;
+}
+.album-like{
+  margin-left: 20px;
+}
+
+.player-left {
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+}
+.left-icon{
+  margin-right: 30px;
+}
+.player-controls{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.buttons-controls{
+  display: inline-flex;
+  align-items: center;
+}
+.time-line{
+  display: inline-flex;
+  align-items: center;
+}
+.time-line p{
+  color: #6B7280;
+  margin-inline: 20px;
+}
+.full-time{
+  background-color: #ADFF00;
+  width: 40vw;
+  height: 5px;
+  border-radius: 50px;
+}
+.center-icon{
+  display: flex;
+  justify-content: center;
+}
+#arrow-icon-left{
+  transform: rotate(180deg);
+}
+.hero-section-container{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+}
+.menu-container{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border-right: 1px solid white;
+  align-content: center;
+  justify-content: space-between;
+}
+.up-container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.hero-container{
+  flex:1;
+}
+.search-container{
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.row-container{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-self: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+#library{
+  background-color: #39393B;
+  border-radius: 8px;
+}
+.down-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-self: center;
+  padding-bottom: 20px;
+}
+.logo{
+  width: 120px;
+  align-self: center;
+}
+.menu-icon{
+  width: 15px;
+  height: 15px;
+  margin-right: 16px;
+}
+.gray-text{
+  color: #6B7280;
+  font-size: 15px;
+}
+hr.solid{
+  width: 180px;
+  border-color: #6B7280;
+  margin-top: 20px;
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-container{
+  width: 90%;
+  padding-top: 25px;
+}
+.main-container{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation-container{
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 100px;
+}
+#arrow-right{
+  transform: rotate(180deg);
+  opacity: 0.5;
+  margin-left: 30px;
+}
+.arrow img{
+  padding-right: 3px;
+}
+
+.settings-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.settings-container img{
+  width: 30px;
+  height: 30px;
+}
+
+.title-container{
+  color: white;
+}
+hr.header-divider{
+  border-color: #6B7280;
+  margin-top: 10px;
+}
+
+.content-container{
+  padding-top: 30px;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.song-component img{
+  width: 150px;
+  aspect-ratio: 1;
+  border-radius: 4px;
+  margin-right: 24px;
+}
+.song-component h2{
+  font-size: 16px;
+  margin: 0px;
+  color: white;
+}
+.song-component h3 {
+  font-size: 12px;
+  margin-top: 3px;
+  color:#6B7280;
+}
